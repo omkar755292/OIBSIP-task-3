@@ -1,0 +1,13 @@
+body{
+     width: 100vw;
+     height: 100vw;
+     display: grid;
+     place-items: center;
+}
+.form{
+     background-color: darkgray;
+     padding: 2cm;
+     border-radius: 10px;
+     box-shadow: 100px rgba(0, 0, 0, 0.25);
+     /* justify-content: space-between; */
+}
