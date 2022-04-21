@@ -1,13 +1,40 @@
 body{
-     width: 100vw;
-     height: 100vw;
-     display: grid;
-     place-items: center;
+     padding: 150px 250px;
 }
 .form{
-     background-color: darkgray;
+     background-color: aliceblue;
      padding: 2cm;
      border-radius: 10px;
+     text-align: center;
      box-shadow: 100px rgba(0, 0, 0, 0.25);
+     image-rendering: pixelated;
      /* justify-content: space-between; */
+}
+.container{
+     margin: 30px;
+}
+.container input{
+     padding:5px 10px;
+     margin: 0px 10px;
+     font-size: medium;
+}
+.form label{
+     font-size: larger;
+}
+button{
+     border-radius: 30px;
+     padding: 3px 10px;
+}
+.display{
+     display: grid;
+     padding: 50px;
+}
+.display label{
+     padding: 20px;
+}
+.display input{
+     padding:5px 10px;
+     margin: 0px 10px;
+     font-size: medium;
+     text-align: center;
 }
